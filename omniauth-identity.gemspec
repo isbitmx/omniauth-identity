@@ -2,7 +2,7 @@
 require File.dirname(__FILE__) + '/lib/omniauth-identity/version'
 
 Gem::Specification.new do |gem|
-  gem.add_runtime_dependency 'omniauth', '~> 1.0'
+  gem.add_runtime_dependency 'omniauth', '~> 2.0.1'
   gem.add_runtime_dependency 'bcrypt', '~> 3.1'
 
   gem.add_development_dependency 'maruku', '~> 0.6'
